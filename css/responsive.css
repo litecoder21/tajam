@@ -1,0 +1,122 @@
+/*Extra small devices (portrait phones, less than 576px)*/ 
+@media (max-width: 575.98px) {
+    .about_text h2 {
+        margin-top: 10px;
+    }
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-nav {
+        background: #90a1a0;
+        text-align: center;
+    }
+    .banner_text {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        background:none;
+    }
+    .about_text h2 {
+        margin-top: 10px;
+    }
+    .banner_text p{
+        padding: 65px 0px 65px 0px;
+    }
+    .team2-text p {
+        font-size: 15px;
+        line-height: 17px;
+        padding: 0px 0px;
+    }
+    .arrow1 {
+        color: transparent;
+    }
+    .arrow2 {
+        color: transparent;
+    }
+    
+}
+
+
+
+/*Medium devices (tablets, 768px and up)*/ 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .navbar-nav {
+        background: #90a1a0;
+        text-align: center;
+    }
+    .banner_text {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        background:none;
+    }
+    .tm-card {
+        width: 160px;
+    }
+    .team2-text p {
+        padding: 0px 60px;
+    }
+    .arrow1 {
+        color: transparent;
+    }
+    .arrow2 {
+        color: transparent;
+    }
+    .footer-form-control {
+        padding: 2px 5px;
+        width: 49%;
+    }
+    .btn-confrom {
+        padding: 4px 2px;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .social-icon a {
+        margin-right: -2px;
+    }
+    .contact-btn {
+        width: 100%;
+    }
+}
+
+
+
+/*Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .tm-card {
+        width: 209px;
+    }
+    .arrow1 {
+        left: 29%;
+        top: 490px;
+    }
+    .arrow2 {
+        right: 28%;
+        top: 490px;
+    }
+    .footer-form-control {
+        width: 60%;
+    }
+    .social-icon a {
+        margin-right: 13px;
+    }
+}
+
+
+
+/*Extra large devices (large desktops, 1200px and up)*/ 
+@media (min-width: 1200px) {
+    
+}
